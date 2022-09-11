@@ -1,0 +1,21 @@
+{
+    "name": "angelmarkup",
+    "version": "1.3.0",
+    "description": "Simple data storage with no drama in Javascript.",
+    "main": "./src/index.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/iamtheblackunicorn/angelmarkup.js.git"
+    },
+    "keywords": [
+      "compiler",
+      "data"
+    ],
+    "type": "module",
+    "author": "Alexander Abraham <youreccentricity@outlook.com> (http://angeldustduke.art)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/iamtheblackunicorn/angelmarkup.js/issues"
+    },
+    "homepage": "https://github.com/iamtheblackunicorn/angelmarkup.js#readme"
+  }
