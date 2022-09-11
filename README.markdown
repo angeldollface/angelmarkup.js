@@ -127,6 +127,11 @@ Map(1) { 'name' => 'aml' }
 - Added a `toJSON` method.
 - Updated methods for the other formats.
 
+### Version 1.4.0
+
+- Updated documentation.
+- Published and uploaded under my new name.
+
 ## NOTE :scroll:
 - *Angelmarkup.js :performing_arts: :guitar: :ribbon:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*
 - Licensed under the MIT license.
