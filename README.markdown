@@ -6,7 +6,7 @@
 
 ## ABOUT :books:
 
-Some months ago, I wrote a [framework for blog-oriented static-site generation in Rust](https://github.com/angeldollface/acid) and needed a data format that permits comments. Everything else seemed too complicated, so I wrote a compiler and parser for my own data format, [also in Rust](https://github.com/angeldollface/angelmarkup). This is my re-implementation of the compiler for this data format in Javascript. The data format is called ***Angel Markup*** which is a simplified form of `JSON` that allows comments.
+I needed a data format that permits comments for some projects I was working on. Everything else seemed too complicated, so I wrote a compiler and parser for my own data format, called ***Angel Markup***. I iplemented the compiler once in Rust and once in Javascript. This is the Javascript implementation. :heart:
 
 # USAGE :hammer:
 
@@ -41,7 +41,7 @@ Be sure to also add the `"type":"module"` flag to your project's manifest, `pack
 
 ```text
 # This is a comment.
-# Assigns the value "name" field, the name "max".
+# Assigns the "name" field, the value "max".
 'name' => 'max'
 ```
 
@@ -131,6 +131,10 @@ Map(1) { 'name' => 'aml' }
 
 - Updated documentation.
 - Published and uploaded under my new name.
+
+### Version 1.5.0
+
+- Fixed typos and dead links.
 
 ## NOTE :scroll:
 - *Angelmarkup.js :performing_arts: :guitar: :ribbon:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*

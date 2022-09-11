@@ -1,6 +1,6 @@
 {
     "name": "angelmarkup",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Simple data storage with no drama in Javascript.",
     "main": "./src/index.js",
     "repository": {
