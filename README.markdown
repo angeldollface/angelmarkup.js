@@ -6,13 +6,13 @@
 
 ## ABOUT :books:
 
-I needed a data format that permits comments for some projects I was working on. Everything else seemed too complicated, so I wrote a compiler and parser for my own data format, called ***Angel Markup***. I iplemented the compiler once in Rust and once in Javascript. This is the Javascript implementation. :heart:
+I needed a data format that permits comments for some projects I was working on. Everything else seemed too complicated, so I wrote a compiler and parser for my own data format, called *Angel Markup*. I iplemented the compiler once in Rust and once in Javascript. This is the Javascript implementation. :heart:
 
 # USAGE :hammer:
 
-### Use ***Angelmarkup.js*** in a Node.js project
+### Use *Angelmarkup.js* in a Node.js project
 
-To use ***Angelmarkup.js*** in a Node.js project, run this command in your project's root directory:
+To use *Angelmarkup.js* in a Node.js project, run this command in your project's root directory:
 
 ```bash
 $ npm install --save-dev angelmarkup
@@ -22,7 +22,7 @@ Be sure to also add the `"type":"module"` flag to your project's manifest, `pack
 
 ### APIs
 
-***Angelmarkup.js*** offers the following functions:
+*Angelmarkup.js* offers the following functions:
 
 - `toYAML(subject, filler)`: Converts a map into a YAML string and joins each line with "filler".
 - `toTOML(subject, filler)`: Converts a map into a TOML string and joins each line with "filler".
@@ -30,14 +30,14 @@ Be sure to also add the `"type":"module"` flag to your project's manifest, `pack
 - `toJSON(subject)`: Converts a map into a JSON string.
 - `hasIndex(subject, index)`: Checks if the list "subject" has the index "index".
 - `class Token(name, value)`: A class to represent a token. `name` represents the token's name and `value` represents the parsed string slice corresponding to a regular expression for that type of token.
-- `patternPool()`: A function that holds the regular expression patterns that represent statements ***Angelmarkup.js*** understands.
+- `patternPool()`: A function that holds the regular expression patterns that represent statements *Angelmarkup.js* understands.
 - `lexSrc(source, pool)`: A lexing function to take a string, run my algorithm for lexing, and return a list of tokens. (I deliberately made the arguments customizable for easy re-use.)
-- `serializeAML`: A function that parses ***Angel Markup*** statements and serializes them into a map. 
+- `serializeAML`: A function that parses *Angel Markup* statements and serializes them into a map. 
 - `testAll()`: Tests all of the above.
 
 ### Angel Markup Syntax
 
-***Angel Markup*** is very simple. It is similar to `JSON` and only recognizes one data type. This data type is a string. Here's a small example.
+*Angel Markup* is very simple. It is similar to `JSON` and only recognizes one data type. This data type is a string. Here's a small example.
 
 ```text
 # This is a comment.
@@ -55,7 +55,7 @@ Here's a small example:
 $ npm init -y 
 ```
 
-- 2.) Install ***Angelmarkup.js*** as a dependency:
+- 2.) Install *Angelmarkup.js* as a dependency:
 
 ```bash
 $ npm install --save-dev angelmarkup
@@ -71,7 +71,7 @@ $ npm install --save-dev angelmarkup
 
 ```js
 // index.js
-import angelmarkup from 'angelmarkup';
+import * as angelmarkup from 'angelmarkup';
 
 function main(){
   // A string of an AML key-value pair.
@@ -117,8 +117,8 @@ Map(1) { 'name' => 'aml' }
 ### Version 1.2.0
 
 - Updated documentation.
-- Fixed ***ALL*** typos.
-- ***VASTLY*** improved the lexer and parser.
+- Fixed *ALL* typos.
+- *VASTLY* improved the lexer and parser.
 - Fixed the "messy string" bug.
 
 ### Version 1.3.0
@@ -135,6 +135,11 @@ Map(1) { 'name' => 'aml' }
 ### Version 1.5.0
 
 - Fixed typos and dead links.
+
+### Version 1.6.0
+
+- Fixed some administrative issues.
+- Fixed some formatting issues.
 
 ## NOTE :scroll:
 - *Angelmarkup.js :performing_arts: :guitar: :ribbon:* by Alexander Abraham :black_heart: a.k.a. *"Angel Dollface" :dolls: :ribbon:*

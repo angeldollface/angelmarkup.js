@@ -1,6 +1,6 @@
 {
     "name": "angelmarkup",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "description": "Simple data storage with no drama in Javascript.",
     "main": "./src/index.js",
     "repository": {
@@ -12,7 +12,7 @@
       "data"
     ],
     "type": "module",
-    "author": "Alexander Abraham <angeldollface666@gmail.com> (https://angeldollface.art)",
+    "author": "Alexander Abraham (https://angeldollface.art)",
     "license": "MIT",
     "bugs": {
       "url": "https://github.com/angeldollface/angelmarkup.js/issues"
